@@ -27,6 +27,9 @@
 #include "dislocker/config.priv.h"
 #include <sys/mount.h>
 
+#ifndef BLKGETSIZE64
+#   define BLKGETSIZE64 0x80041272
+#endif
 
 /**
  * Getting the real volume size is proving to be quite difficult.

@@ -38,7 +38,7 @@
 #endif /* __DARWIN || __FREEBSD */
 
 
-
+#define BLKSSZGET 0x1268
 
 static int get_volume_header(
 	volume_header_t *volume_header,
