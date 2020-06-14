@@ -38,6 +38,8 @@ else()
 	add_definitions (-D__ARCH_X86)
 endif()
 
+message("****Info**** include system path: ${SYSTEM}")
+
 if( NOT CMAKE_CROSSCOMPILING )
 	include_directories (SYSTEM /usr/local/include)
 endif()
@@ -84,7 +86,8 @@ if("${CMAKE_SYSTEM_NAME}" STREQUAL "Darwin")
 	# Don't use `-read_only_relocs' here as it seems to only work for 32 bits
 	# binaries
 	set (CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,-bind_at_load")
-	set (FUSE_LIB osxfuse_i64)
+	set (FUSE_LIB "/usr/local/lib/libosxfuse_i64.dylib")
+	message("****Info**** FUSE_LIB path is: ${FUSE_LIB}")
 else()
 	# Useless warnings when used within Darwin
 	set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wconversion")
@@ -95,8 +98,10 @@ else()
 endif()
 
 if(${CMAKE_COMPILER_IS_GNUCC})
+	message("****Info**** compiler is GNUCC")
 	set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wl,-z,now -Wl,-z,relro")
 elseif("${CMAKE_C_COMPILER_ID}" STREQUAL "Clang")
+	message("****Info**** compiler is Clang")
 	set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Qunused-arguments")
 else()
 	message ("*** WARNING *** You're compiling with an untested compiler (${CMAKE_C_COMPILER_ID}), this mays result in unwanted behaviours.\n")

@@ -20,7 +20,15 @@ if( "${POLARSSL_INCLUDE_DIRS}" STREQUAL "POLARSSL_INCLUDE_DIRS-NOTFOUND")
   set(POLARSSL_REAL_NAME POLARSSL)
 endif()
 
+message("****Info**** POLARSSL_INCLUDE_DIRS: ${POLARSSL_INCLUDE_DIRS}")
+
+message("****Info**** POLARSSL_REAL_NAME: ${POLARSSL_REAL_NAME}")
+
+message("****Info**** POLARSSL_INC_FOLDER: ${POLARSSL_INC_FOLDER}")
+
 string(TOLOWER "${POLARSSL_REAL_NAME}" POLARSSL_INC_FOLDER)
+
+message("****Info**** POLARSSL_INC_FOLDER: ${POLARSSL_INC_FOLDER}")
 
 #
 # polarssl -> mbedtls
@@ -31,6 +39,8 @@ string(TOLOWER "${POLARSSL_REAL_NAME}" POLARSSL_INC_FOLDER)
 # libmbedtls to polarssl for compat
 #
 find_library(POLARSSL_LIBRARIES NAMES mbedcrypto)
+message("****Info**** POLARSSL_LIBRARIES: ${POLARSSL_LIBRARIES}")
+
 set(POLARSSL_USED_LIBRARY mbedcrypto)
 if( "${POLARSSL_LIBRARIES}" STREQUAL "POLARSSL_LIBRARIES-NOTFOUND" )
   find_library(POLARSSL_LIBRARIES NAMES mbedtls)
@@ -50,20 +60,40 @@ if( ${POLARSSL_LIBRARIES-NOTFOUND} )
 endif()
 
 if( NOT CMAKE_CROSSCOMPILING )
+
+#get system head files
+	execute_process (
+		COMMAND xcrun --show-sdk-path
+		OUTPUT_VARIABLE GET_SYSTEM_SDK_PATH
+	)
+
+  message("****Info**** Get SDK path: ${GET_SYSTEM_SDK_PATH}")
+
   execute_process(
     COMMAND echo "#include <${POLARSSL_INC_FOLDER}/version.h>\n#include <stdio.h>\nint main(){printf(${POLARSSL_REAL_NAME}_VERSION_STRING);return 0;}"
-    OUTPUT_FILE a.c
+    OUTPUT_FILE ${PROJECT_BINARY_DIR}/a.c
   )
+
+  message("****Info**** CMAKE_C_COMPILER is: ${CMAKE_C_COMPILER}")
+  message("****Info**** POLARSSL_LIBRARIES is ${POLARSSL_LIBRARIES}")
+
   execute_process(
-    COMMAND ${CMAKE_C_COMPILER} a.c -I${POLARSSL_INCLUDE_DIRS} ${POLARSSL_LIBRARIES}
+   COMMAND ${CMAKE_C_COMPILER} ${PROJECT_BINARY_DIR}/a.c -o ${PROJECT_BINARY_DIR}/a
   )
+
+  message("${CMAKE_C_COMPILER} ${PROJECT_BINARY_DIR}/a.c -I${POLARSSL_INCLUDE_DIRS}  ${POLARSSL_LIBRARIES} -o ${PROJECT_BINARY_DIR}/a")
+
   execute_process(
-    COMMAND ./a.out
+    COMMAND ${PROJECT_BINARY_DIR}/a
     OUTPUT_VARIABLE POLARSSL_VERSION_STRING
   )
+
+  message("****Info**** POLARSSL_VERSION_STRING is: ${POLARSSL_VERSION_STRING}")
+
   execute_process(
     COMMAND ${CMAKE_COMMAND} -E remove a.c a.out
   )
+  
 else()
   execute_process(
     COMMAND grep -w "MBEDTLS_VERSION_STRING" ${POLARSSL_INCLUDE_DIRS}/${POLARSSL_INC_FOLDER}/version.h

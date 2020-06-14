@@ -24,19 +24,28 @@ set (AUTHOR "Romain Coltel")
 
 find_program (GIT_EXE NAMES git PATHS /usr/bin /usr/local/bin)
 
+message("****Info**** Git Path: ${GIT_EXE}")
+
 if(GIT_EXE)
 	execute_process (
 		COMMAND ${GIT_EXE} rev-parse --abbrev-ref HEAD
 		WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
 		OUTPUT_VARIABLE GIT_RELEASE_BRANCH
 	)
+	message("****Info**** GIT_RELEASE_BRANCH: ${GIT_RELEASE_BRANCH}")
+
 	execute_process (
 		COMMAND ${GIT_EXE} log -n 1 --pretty=format:%t
 		WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}
 		OUTPUT_VARIABLE GIT_RELEASE_COMMIT
 	)
+	message("****Info**** GIT_RELEASE_COMMIT: ${GIT_RELEASE_COMMIT}")
+	
 	string (STRIP "${GIT_RELEASE_BRANCH}" GIT_RELEASE_BRANCH)
 	string (STRIP "${GIT_RELEASE_COMMIT}" GIT_RELEASE_COMMIT)
+
+	message("****Info**** After STRIP:GIT_RELEASE_BRANCH: ${GIT_RELEASE_BRANCH}")
+	message("****Info**** After STRIP:GIT_RELEASE_COMMIT: ${GIT_RELEASE_COMMIT}")
 	add_definitions (-DVERSION_DBG="${GIT_RELEASE_BRANCH}:${GIT_RELEASE_COMMIT}")
 endif()
 
