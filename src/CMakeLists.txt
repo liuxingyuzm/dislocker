@@ -143,10 +143,12 @@ endif()
 # Places
 if(NOT DEFINED sharedir)
   set(sharedir ${CMAKE_INSTALL_PREFIX}/share)
+  message("****Info**** sharedir is ${sharedir}")
 endif()
 
 if(NOT DEFINED mandir)
   set(mandir ${sharedir}/man)
+  message("****Info**** mandir is ${mandir}")
 endif()
 
 if(NOT DEFINED LIB_INSTALL_DIR)
@@ -156,6 +158,7 @@ if(NOT DEFINED LIB_INSTALL_DIR)
 		else()
 			set(libdir "${CMAKE_INSTALL_PREFIX}/lib")
 		endif()
+		message("****Info**** libdir is ${libdir}")
 	endif()
 else()
 	set(libdir ${LIB_INSTALL_DIR})
@@ -163,10 +166,14 @@ endif()
 
 if(NOT DEFINED bindir)
 	set(bindir "${CMAKE_INSTALL_PREFIX}/bin")
+	message("****Info**** bindir is ${bindir}")
 endif()
 
 string (TOLOWER "${CMAKE_SYSTEM_NAME}" SYSNAME)
+message("****Info**** CMAKE_SYSTEM_NAME is ${CMAKE_SYSTEM_NAME}")
+
 set (DIS_MAN ${PROJECT_SOURCE_DIR}/man/${SYSNAME})
+message("****Info**** DIS_MAN is ${DIS_MAN}")
 
 # RPATH handling
 if(POLICY CMP0042)
@@ -178,10 +185,12 @@ set (CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
 list (FIND CMAKE_PLATFORM_IMPLICIT_LINK_DIRECTORIES "${libdir}" isSystemDir)
 if("${isSystemDir}" STREQUAL "-1")
    set (CMAKE_INSTALL_RPATH "${libdir}")
+   message("****Info**** CMAKE_INSTALL_RPATH is ${CMAKE_INSTALL_RPATH}")
 endif()
 
 # Targets
 add_library (${PROJECT_NAME} SHARED ${SOURCES})
+message("****Info**** LIB is ${LIB}")
 target_link_libraries (${PROJECT_NAME} ${LIB})
 set_target_properties (${PROJECT_NAME} PROPERTIES VERSION "${VERSION}" SOVERSION "${VERSION_MAJOR}.${VERSION_MINOR}")
 install (TARGETS ${PROJECT_NAME} LIBRARY DESTINATION "${libdir}")
@@ -201,6 +210,7 @@ add_executable (${BIN_FUSE} ${BIN_FUSE}.c)
 target_link_libraries (${BIN_FUSE} ${FUSE_LIB} ${PROJECT_NAME})
 set_target_properties (${BIN_FUSE} PROPERTIES COMPILE_DEFINITIONS FUSE_USE_VERSION=26)
 set_target_properties (${BIN_FUSE} PROPERTIES LINK_FLAGS "-pie -fPIE")
+message("****Info**** CMAKE_BINARY_DIR is ${CMAKE_BINARY_DIR}")
 add_custom_command (TARGET ${BIN_FUSE} POST_BUILD
 	COMMAND mkdir -p ${CMAKE_BINARY_DIR}/man/
 	COMMAND gzip -c ${DIS_MAN}/${BIN_FUSE}.1 > ${CMAKE_BINARY_DIR}/man/${BIN_FUSE}.1.gz
