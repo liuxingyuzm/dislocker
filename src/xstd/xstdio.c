@@ -42,7 +42,7 @@ static FILE* fds[DIS_LOGS_NB] = {0,};
 
 
 /* Keep track of the verbosity level */
-static int verbosity = L_QUIET;
+static int verbosity = L_DEBUG;
 
 
 /* Levels transcription into strings */

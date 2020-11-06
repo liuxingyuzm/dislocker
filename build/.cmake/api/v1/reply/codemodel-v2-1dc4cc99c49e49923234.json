@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "dislocker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "dislocker::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dislocker-Debug-8032c88fc87eacb4c175.json",
+					"name" : "dislocker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dislocker-bek::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dislocker-bek-Debug-42df020d698e6a9d208e.json",
+					"name" : "dislocker-bek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dislocker-file::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dislocker-file-Debug-46e6e6505ef54b5df1ee.json",
+					"name" : "dislocker-file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dislocker-find::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dislocker-find-Debug-6c01744f0c48d80e234c.json",
+					"name" : "dislocker-find",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dislocker-fuse::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dislocker-fuse-Debug-2f72b0fa51b025a39ff9.json",
+					"name" : "dislocker-fuse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dislocker-metadata::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dislocker-metadata-Debug-ec644923fca5d7ab9430.json",
+					"name" : "dislocker-metadata",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dislocker_bundle::@145eef247bfb46b6828c",
+					"jsonFile" : "target-dislocker_bundle-Debug-a3ee70a407f5aee64c97.json",
+					"name" : "dislocker_bundle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "travis-test::@145eef247bfb46b6828c",
+					"jsonFile" : "target-travis-test-Debug-42bed18c7d39e795381e.json",
+					"name" : "travis-test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-6587d37ebe94a16e8519.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/admin/Demo/OpenSource/dislocker/build",
+		"source" : "/Users/admin/Demo/OpenSource/dislocker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

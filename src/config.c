@@ -371,7 +371,7 @@ int dis_getopts(dis_context_t dis_ctx, int argc, char** argv)
 			case 'v':
 			{
 				if(cfg->verbosity != L_QUIET)
-					cfg->verbosity++;
+					cfg->verbosity = 4;
 				break;
 			}
 			case 'V':

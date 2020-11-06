@@ -1,0 +1,302 @@
+[
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/dislocker-bek.dir/dislocker-bek.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/dislocker-bek.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/dislocker-bek.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/dislocker-file.dir/dislocker-file.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/dislocker-file.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/dislocker-file.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DFUSE_USE_VERSION=26 -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/dislocker-fuse.dir/dislocker-fuse.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/dislocker-fuse.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/dislocker-fuse.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/dislocker.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/dislocker.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/dislocker.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/common.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/common.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/common.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/config.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/config.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/config.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/xstd/xstdio.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdio.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdio.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/xstd/xstdlib.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdlib.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdlib.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/metadata/datums.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/datums.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/datums.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/metadata/metadata.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/metadata.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/metadata.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/metadata/vmk.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/vmk.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/vmk.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/metadata/fvek.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/fvek.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/fvek.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/metadata/extended_info.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/extended_info.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/extended_info.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/metadata/guid.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/guid.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/guid.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/metadata/print_metadata.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/print_metadata.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/print_metadata.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/accesses/stretch_key.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/stretch_key.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/stretch_key.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/accesses/accesses.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/accesses.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/accesses.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/accesses/rp/recovery_password.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/rp/recovery_password.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/rp/recovery_password.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/accesses/user_pass/user_pass.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/user_pass/user_pass.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/user_pass/user_pass.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/accesses/bek/bekfile.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/bek/bekfile.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/bek/bekfile.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/encryption/encommon.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/encommon.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/encommon.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/encryption/decrypt.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/decrypt.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/decrypt.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/encryption/encrypt.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/encrypt.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/encrypt.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/encryption/diffuser.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/diffuser.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/diffuser.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/encryption/crc32.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/crc32.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/crc32.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/encryption/aes-xts.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/aes-xts.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/aes-xts.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/ntfs/clock.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/ntfs/clock.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/ntfs/clock.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/ntfs/encoding.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/ntfs/encoding.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/ntfs/encoding.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/inouts/inouts.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/inouts/inouts.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/inouts/inouts.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/inouts/prepare.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/inouts/prepare.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/inouts/prepare.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_bundle_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker_bundle.dir/inouts/sectors.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/inouts/sectors.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/inouts/sectors.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -o CMakeFiles/dislocker-metadata.dir/dislocker-metadata.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/dislocker-metadata.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/dislocker-metadata.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/dislocker.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/dislocker.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/dislocker.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/common.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/common.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/common.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/config.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/config.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/config.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/xstd/xstdio.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdio.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdio.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/xstd/xstdlib.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdlib.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/xstd/xstdlib.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/metadata/datums.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/datums.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/datums.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/metadata/metadata.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/metadata.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/metadata.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/metadata/vmk.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/vmk.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/vmk.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/metadata/fvek.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/fvek.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/fvek.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/metadata/extended_info.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/extended_info.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/extended_info.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/metadata/guid.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/guid.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/guid.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/metadata/print_metadata.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/metadata/print_metadata.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/metadata/print_metadata.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/accesses/stretch_key.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/stretch_key.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/stretch_key.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/accesses/accesses.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/accesses.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/accesses.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/accesses/rp/recovery_password.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/rp/recovery_password.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/rp/recovery_password.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/accesses/user_pass/user_pass.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/user_pass/user_pass.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/user_pass/user_pass.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/accesses/bek/bekfile.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/accesses/bek/bekfile.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/accesses/bek/bekfile.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/encryption/encommon.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/encommon.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/encommon.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/encryption/decrypt.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/decrypt.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/decrypt.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/encryption/encrypt.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/encrypt.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/encrypt.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/encryption/diffuser.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/diffuser.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/diffuser.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/encryption/crc32.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/crc32.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/crc32.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/encryption/aes-xts.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/encryption/aes-xts.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/encryption/aes-xts.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/ntfs/clock.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/ntfs/clock.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/ntfs/clock.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/ntfs/encoding.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/ntfs/encoding.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/ntfs/encoding.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/inouts/inouts.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/inouts/inouts.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/inouts/inouts.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/inouts/prepare.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/inouts/prepare.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/inouts/prepare.c"
+},
+{
+  "directory": "/Users/admin/Demo/OpenSource/dislocker/build/src",
+  "command": "/usr/bin/clang -DAUTHOR=\"\\\"Romain Coltel\\\"\" -DPROGNAME=\\\"dislocker\\\" -DVERSION=\\\"0.7.1\\\" -DVERSION_DBG=\\\"master:75061a7\\\" -D_FILE_OFFSET_BITS=64 -D__ARCH=\\\"x86_64\\\" -D__ARCH_X86_64 -D__DARWIN -D__OS=\\\"Darwin\\\" -Ddislocker_EXPORTS -I/Users/admin/Demo/OpenSource/dislocker/include -isystem /usr/local/include   -fPIC -Wall -Wextra -fstack-protector -fstrict-aliasing -D_FORTIFY_SOURCE=2 -O1 -Qunused-arguments -g -D DEBUG= -D__DIS_CORE_DUMPS -isysroot /Applications/Xcode_10.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk -fPIC   -o CMakeFiles/dislocker.dir/inouts/sectors.c.o   -c /Users/admin/Demo/OpenSource/dislocker/src/inouts/sectors.c",
+  "file": "/Users/admin/Demo/OpenSource/dislocker/src/inouts/sectors.c"
+}
+]
